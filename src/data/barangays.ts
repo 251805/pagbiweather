@@ -1,0 +1,31 @@
+import { Barangay } from '../types';
+
+export const PAGBILAO_BARANGAYS: Barangay[] = [
+  { name: "Alupaye", lat: 13.9473, lon: 121.6697, landslideRisk: "Moderate" as const },
+  { name: "Añato", lat: 14.0042, lon: 121.6572, landslideRisk: "Low" as const },
+  { name: "Antipolo", lat: 13.9868, lon: 121.6648, landslideRisk: "Moderate" as const },
+  { name: "Bagumbungan Iba", lat: 13.9995, lon: 121.6894, landslideRisk: "Moderate" as const },
+  { name: "Bagumbungan Ila", lat: 14.0257, lon: 121.6942, landslideRisk: "High" as const },
+  { name: "Bantigue", lat: 13.9396, lon: 121.6944, landslideRisk: "Low" as const },
+  { name: "Bigo", lat: 13.9948, lon: 121.6485, landslideRisk: "High" as const },
+  { name: "Binahaan", lat: 13.9898, lon: 121.7579, landslideRisk: "Moderate" as const },
+  { name: "Bukal", lat: 13.9728, lon: 121.6800, landslideRisk: "Low" as const },
+  { name: "Castillo (Poblacion)", lat: 13.9711, lon: 121.6831, landslideRisk: "Low" as const },
+  { name: "Daungan (Poblacion)", lat: 13.9683, lon: 121.6888, landslideRisk: "Low" as const },
+  { name: "Del Carmen", lat: 13.9685, lon: 121.6856, landslideRisk: "Low" as const },
+  { name: "Ikirin", lat: 13.9872, lon: 121.6900, landslideRisk: "Moderate" as const },
+  { name: "Malicboy Kan.", lat: 13.9689, lon: 121.7685, landslideRisk: "High" as const },
+  { name: "Malicboy Sil.", lat: 13.9802, lon: 121.7908, landslideRisk: "High" as const },
+  { name: "Mapagong", lat: 13.9679, lon: 121.6798, landslideRisk: "Low" as const },
+  { name: "Mayhay", lat: 13.9771, lon: 121.6842, landslideRisk: "Low" as const },
+  { name: "Palsabangon Iba", lat: 13.9893, lon: 121.7371, landslideRisk: "Moderate" as const },
+  { name: "Palsabangon Ila", lat: 14.0211, lon: 121.7242, landslideRisk: "High" as const },
+  { name: "Parang", lat: 13.9710, lon: 121.6897, landslideRisk: "Low" as const },
+  { name: "Pinagbayanan", lat: 13.9690, lon: 121.7016, landslideRisk: "Low" as const },
+  { name: "Polo Iba", lat: 13.9055, lon: 121.7496, landslideRisk: "Low" as const },
+  { name: "Polo Ila", lat: 13.9313, lon: 121.7753, landslideRisk: "Low" as const },
+  { name: "Sta. Catalina", lat: 13.9711, lon: 121.6868, landslideRisk: "Low" as const },
+  { name: "Talipan", lat: 13.9628, lon: 121.6537, landslideRisk: "Low" as const },
+  { name: "Tambak", lat: 13.9729, lon: 121.6884, landslideRisk: "Low" as const },
+  { name: "Tukalan", lat: 14.0063, lon: 121.6754, landslideRisk: "Moderate" as const }
+].sort((a, b) => a.name.localeCompare(b.name));

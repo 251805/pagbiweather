@@ -1,0 +1,6 @@
+{
+  "name": "Municipality Monitoring System",
+  "description": "An enterprise-grade Emergency Operations Center (EOC) and Weather Intelligence platform for Pagbilao, Quezon. Features real-time Open-Meteo weather tracking, Himawari satellite timeline player, Waze traffic integration, interactive barangay overwatch grid, live sensor analytics, and local emergency dispatch logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
